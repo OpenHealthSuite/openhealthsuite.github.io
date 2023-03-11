@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import Head from "next/head";
 import React from "react";
-import { Button, Container, Flex, Heading } from "@chakra-ui/react";
+import { Button, Container, Flex, Heading, Text } from "@chakra-ui/react";
 import Link from "next/link";
 
 enum ProjectStatus {
@@ -136,6 +136,13 @@ export default function Home() {
                 <Flex flexDirection={"row"} flexWrap={"wrap"} justifyContent={"center"}>
                     {Projects.map(def => <ProjectCard key={def.name} {...def} />)}
                 </Flex>
+                <Container>
+                    <Heading as='h4' textAlign={"center"} size={'md'}>Proudly open source</Heading>
+                    <Text>OpenHealthSuite is open source, under GPL-3.0 licence, 
+                    with the source code hosted on <Link href="https://github.com/OpenHealthSuite">
+                        <Text as="span" decoration={"underline"}>GitHub</Text>
+                    </Link>, and full permission to host your own instance.</Text>
+                </Container>
             </Flex>
         </>
     );
