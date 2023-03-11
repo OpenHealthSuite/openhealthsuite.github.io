@@ -9,3 +9,15 @@
 .heading {
   text-align: center;
 }
+
+.projectsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: center;
+}
+
+.projectCard {
+  margin: 1em;
+}
