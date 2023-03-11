@@ -36,7 +36,7 @@ const Projects: ProjectDefinition[] = [
     status: ProjectStatus.Live,
     links: {
       App: "https://diary.openhealthsuite.com",
-      About: "https://openfooddiary.com",
+      About: "/diary",
       Github: "https://github.com/OpenHealthSuite/diary"
     }
   },
