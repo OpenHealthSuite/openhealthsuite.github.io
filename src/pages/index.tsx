@@ -140,7 +140,7 @@ export default function Home() {
                     {Projects.map(def => <ProjectCard key={def.name} {...def} />)}
                 </Flex>
                 <Container>
-                    <Heading as='h4' textAlign={"center"} size={'md'}>Proudly open source</Heading>
+                    <Heading as='h4' textAlign={"center"} size={"md"}>Proudly open source</Heading>
                     <Text>OpenHealthSuite is open source, under GPL-3.0 licence, 
                     with the source code hosted on <Link href="https://github.com/OpenHealthSuite">
                         <Text as="span" decoration={"underline"}>GitHub</Text>
