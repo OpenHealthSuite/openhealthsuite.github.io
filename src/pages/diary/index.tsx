@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import React from "react";
-import { Button, Text, Flex, Heading, UnorderedList, ListItem } from "@chakra-ui/react";
+import { Button, Text, Flex, Heading, UnorderedList, ListItem, Container } from "@chakra-ui/react";
 import Link from "next/link";
 import screenshotImage from "./screenshot-web.png";
 import logoImage from "./logo.png";
@@ -21,9 +21,11 @@ export default function Diary() {
                 justifyContent={"center"}
                 minHeight={"100vh"}>
                 <Flex gap={"2em"} flexWrap={"wrap"} justifyContent={"center"}>
-                    <Image src={screenshotImage}
-                        width={300}
-                        alt='Image of a Mobile Phone showing the Diary interface'/>
+                    <Container maxWidth={300}>
+
+                        <Image src={screenshotImage}
+                            alt='Image of a Mobile Phone showing the Diary interface'/>
+                    </Container>
                     <Flex flexDirection={"column"}
                         alignItems={"center"}
                         gap={"1em"}>
