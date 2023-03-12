@@ -24,9 +24,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.806338"
-     inkscape:cx="272.37427"
-     inkscape:cy="436.79533"
+     inkscape:zoom="0.90316901"
+     inkscape:cx="223.10332"
+     inkscape:cy="437.34893"
      inkscape:window-width="1512"
      inkscape:window-height="916"
      inkscape:window-x="-1"
@@ -38,7 +38,10 @@
      inkscape:groupmode="layer"
      id="layer1"><g
        id="g6056"
-       style="fill:#ffffff"><path
+       style="fill:#ffffff"
+       inkscape:export-filename="ohs_logo_large.png"
+       inkscape:export-xdpi="461.68582"
+       inkscape:export-ydpi="461.68582"><path
          style="fill:#ffffff;stroke-width:0.291041"
          d="m 65.112691,90.735132 c 0,0 -14.712469,-17.702805 -30.740689,-0.717673 -16.02822,16.985121 14.951696,47.247351 30.740689,53.945711 0,-53.228041 0,-53.228038 0,-53.228038 z"
          id="path240-4"
