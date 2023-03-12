@@ -3,6 +3,8 @@ import Head from "next/head";
 import React from "react";
 import { Button, Container, Flex, Heading, Text } from "@chakra-ui/react";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "../../public/ohs_logo_large.png";
 
 enum ProjectStatus {
   Live,
@@ -121,6 +123,7 @@ export default function Home() {
                 alignItems={"center"}
                 justifyContent={"center"}
                 minHeight={"100vh"}>
+                <Image src={logo} width={200} alt={"OpenHealthSuite Logo - A half heart, half microchip"} />
                 <Heading as='h1' 
                     size={"xl"} 
                     textAlign={"center"}
