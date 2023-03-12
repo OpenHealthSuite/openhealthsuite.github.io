@@ -51,7 +51,7 @@ const Projects: ProjectDefinition[] = [
     },
     { 
         name: "Planner",
-        summary: "Plan your exercize",
+        summary: "Plan your exercise",
         status: ProjectStatus.Planned,
         links: {
         }
