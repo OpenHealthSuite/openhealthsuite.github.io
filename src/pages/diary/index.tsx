@@ -20,7 +20,7 @@ export default function Diary() {
                 alignItems={"center"}
                 justifyContent={"center"}
                 minHeight={"100vh"}>
-                <Flex gap={"2em"}>
+                <Flex gap={"2em"} flexWrap={"wrap"} justifyContent={"center"}>
                     <Image src={screenshotImage}
                         width={300}
                         alt='Image of a Mobile Phone showing the Diary interface'/>
