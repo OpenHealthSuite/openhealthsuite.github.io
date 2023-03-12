@@ -9,7 +9,7 @@ export default function Diary() {
             <Head>
                 <title>Privacy Policy :: OpenHealthSuite</title>
             </Head>
-            <Container>
+            <Container marginTop={"2em"}>
                 <Heading as='h1' textAlign={"center"}>Privacy Policy</Heading>
                 <Text>
 At OpenHealthSuite, we are committed to protecting the privacy and security of our users&apos; personal information. 
