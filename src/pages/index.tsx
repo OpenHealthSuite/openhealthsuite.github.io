@@ -52,8 +52,10 @@ const Projects: ProjectDefinition[] = [
     { 
         name: "Planner",
         summary: "Plan your exercise",
-        status: ProjectStatus.Planned,
+        status: ProjectStatus.InDevelopment,
         links: {
+            App: "https://planner.openhealthsuite.com",
+            Github: "https://github.com/OpenHealthSuite/planner"
         }
     },
     { 
