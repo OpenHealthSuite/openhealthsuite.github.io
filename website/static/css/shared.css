@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+body,
+html {
+    max-width: 100vw;
+    overflow-x: hidden
+}
+
+.application-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items:flex-start;
+  justify-content: center;
+  gap: 1em;
+  padding: 2em;
+}
+
+.application-tiles > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+  border: 1px solid black;
+  border-radius: 1em;
+  width: 240px;
+  padding: 1em;
+}
+
+.application-tiles > div a {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  position:absolute;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  padding: 1em;
+  margin-top: 2em;
+  background-color: white;
+}
